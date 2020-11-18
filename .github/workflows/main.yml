@@ -13,4 +13,4 @@ jobs:
       - run: npm test
       - run: npm run lint
       - run: npx semantic-release
-        if: ${{ github.ref == refs/heads/latest }}
+        if: ${{ github.ref == 'refs/heads/latest' }}

@@ -7,5 +7,6 @@ export function bsl(content: string, nextVersion: string): string {
       const today = new Date();
       const newDate = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
       return `${part1}${newDate}`;
-    });
+    })
+    .replace(/\(c\) 2020/, `(c) ${new Date().getFullYear()}`);
 }

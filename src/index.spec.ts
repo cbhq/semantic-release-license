@@ -1,19 +1,16 @@
-jest.setTimeout(60000);
+import * as index from './index';
+import { prepare, verifyConditions } from './index';
 
 describe('index', () => {
 
   afterEach(() => jest.restoreAllMocks());
 
-  it('should run plugin', async () => {
-    // const success = await SemanticRelease({
-    //   branches: 'latest',
-    //   ci: false,
-    //   dryRun: true,
-    //   repositoryUrl: 'git@github.com:gomeli/semantic-release-license.git',
-    //   plugins: [['./build', {}]],
-    // });
+  it('should export verifyConditions', async () => {
+    expect(index.verifyConditions).toEqual(verifyConditions);
+  });
 
-    expect(true).toEqual(true);
+  it('should export prepare', async () => {
+    expect(index.prepare).toEqual(prepare);
   });
 
 });

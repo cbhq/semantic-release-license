@@ -18,3 +18,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/latest' || github.ref == 'refs/heads/beta' }}
         env:
           RELEASE_DEPLOY_KEY: ${{ secrets.RELEASE_DEPLOY_KEY }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

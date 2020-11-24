@@ -12,7 +12,7 @@ jobs:
       - run: npm run build
       - run: npm test
       - run: npm run lint
-      - run: npx semantic-release
+      - run: npx semantic-release -r "git@github.com:$GITHUB_REPOSITORY.git"
         if: ${{ github.ref == 'refs/heads/latest' || github.ref == 'refs/heads/beta' }}
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          RELEASE_DEPLOY_KEY: ${{ secrets.RELEASE_DEPLOY_KEY }}

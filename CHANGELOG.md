@@ -1,3 +1,10 @@
+# [1.0.0-beta.3](https://github.com/gomeli/semantic-release-license/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-11-24)
+
+
+### Features
+
+* add tests and remove gnu ([cdad416](https://github.com/gomeli/semantic-release-license/commit/cdad416b36ff5b070b29e4ad02b67a9b8d96e57a))
+
 # [1.0.0-beta.2](https://github.com/gomeli/semantic-release-license/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2020-11-24)
 
 

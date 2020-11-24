@@ -10,7 +10,5 @@ export function bsl(content: string, context: Context): string {
       const newDate = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
       return `${part1}${newDate}`;
     })
-    .replace(/(The Licensed Work is \(c\) )(\d{4})/, (full, part1) => {
-      return `${part1}${new Date().getFullYear()}`;
-    });
+    .replace(/(The Licensed Work is \(c\) )(\d{4})/, (full, part1) => `${part1}${new Date().getFullYear()}`);
 }

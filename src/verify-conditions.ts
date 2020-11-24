@@ -1,7 +1,7 @@
 import { PluginOptions } from './types/plugin-options';
 import { Context } from 'semantic-release';
 import { detectLicensePath } from './detect-license-path';
-import { promises as fs } from "fs";
+import { promises as fs } from 'fs';
 import { detectLicense } from './detect-license';
 
 export async function verifyConditions({ license }: PluginOptions, context: Context) {

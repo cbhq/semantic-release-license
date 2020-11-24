@@ -14,4 +14,14 @@ describe('getHandler', () => {
     expect(getHandler('BSL')).toEqual(bsl);
   });
 
+  it('should throw when no handler for license type', async () => {
+    let error;
+    try {
+      getHandler(undefined);
+    } catch (e) {
+      error = e;
+    }
+    expect(error).toBeDefined();
+  });
+
 });

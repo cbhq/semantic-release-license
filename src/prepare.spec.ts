@@ -53,20 +53,5 @@ describe('prepare', () => {
     expect(readFile).toHaveBeenCalledWith('path');
     expect(writeFile).toHaveBeenCalledWith('path', 'replace');
   });
-
-  it('should throw error when no handler for detected license type', async () => {
-    const readFile = jest.spyOn(promises, 'readFile').mockReturnValue(Promise.resolve('content'));
-    jest.spyOn(_detectLicense, 'detectLicense').mockReturnValue(Promise.resolve('MIT'));
-    jest.spyOn(_getHandler, 'getHandler').mockReturnValue(undefined);
-
-    let error;
-    try {
-      await prepare(<any>{ license: { path: 'path' } }, context);
-    } catch (e) {
-      error = e;
-    }
-
-    expect(error).toBeDefined();
-  });
-
+  
 });

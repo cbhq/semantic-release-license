@@ -9,5 +9,7 @@ export function getHandler(licenseType: LicenseType): Handler {
       return mit;
     case 'BSL':
       return bsl;
+    default:
+      throw new Error(`No handler for license type ${licenseType}`);
   }
 }

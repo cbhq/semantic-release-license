@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/gomeli/semantic-release-license/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-11-24)
+
+
+### Bug Fixes
+
+* bad semver regex ([40c7ed1](https://github.com/gomeli/semantic-release-license/commit/40c7ed1d50939c8f90fe0a4a31a742b6952ed692))
+
 # [1.0.0-beta.3](https://github.com/gomeli/semantic-release-license/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-11-24)
 
 

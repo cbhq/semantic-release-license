@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gomeli/semantic-release-license.git"
+    "url": "git+https://github.com/cbhq/semantic-release-license.git"
   },
   "keywords": [],
   "author": "Geoffroy Empain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gomeli/semantic-release-license/issues"
+    "url": "https://github.com/cbhq/semantic-release-license/issues"
   },
-  "homepage": "https://github.com/gomeli/semantic-release-license#readme",
+  "homepage": "https://github.com/cbhq/semantic-release-license#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^5.0.0",

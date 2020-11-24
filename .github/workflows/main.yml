@@ -15,7 +15,7 @@ jobs:
       - run: |
           source ./ci/setup-git.sh "$RELEASE_DEPLOY_KEY"
           npx semantic-release -r "git@github.com:$GITHUB_REPOSITORY.git"
-        if: ${{ github.ref == 'refs/heads/latest' || github.ref == 'refs/heads/beta' }}
+        if: ${{ github.ref == 'refs/heads/latest' }}
         env:
           RELEASE_DEPLOY_KEY: ${{ secrets.RELEASE_DEPLOY_KEY }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

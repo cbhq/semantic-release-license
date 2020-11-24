@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/gomeli/semantic-release-license/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2020-11-24)
+
+
+### Bug Fixes
+
+* missing build files in published package ([3074df0](https://github.com/gomeli/semantic-release-license/commit/3074df0e62a6926f118774829ad3e0bcfe88a616))
+
 # 1.0.0-beta.1 (2020-11-24)
 
 

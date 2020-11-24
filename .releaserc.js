@@ -15,7 +15,7 @@ module.exports = {
       '@semantic-release/exec',
       { generateNotesCmd: 'echo -n ${nextRelease.version} > VERSION' },
     ],
-    // '@semantic-release/github',
+    '@semantic-release/github',
     '@semantic-release/npm',
   ],
 };

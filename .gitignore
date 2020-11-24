@@ -31,3 +31,4 @@ tmp
 data
 *.iml
 *.env
+*.tgz

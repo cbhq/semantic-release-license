@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/cbhq/semantic-release-license/compare/v1.0.0...v1.0.1) (2020-12-12)
+
+
+### Bug Fixes
+
+* bsl date is incorrect ([1dd61cf](https://github.com/cbhq/semantic-release-license/commit/1dd61cf7613dffea29d33688bc4998002ea5ad9a))
+
 # 1.0.0 (2020-11-24)
 
 

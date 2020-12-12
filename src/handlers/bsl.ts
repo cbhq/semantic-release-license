@@ -7,7 +7,7 @@ export function bsl(content: string, context: Context): string {
     ))
     .replace(/(Change Date.*)(\d{4}-\d{2}-\d{2})/, (full, part1) => {
       const today = new Date();
-      const newDate = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+      const newDate = `${today.getFullYear() + 4}-${today.getMonth() + 1}-${today.getDate()}`;
       return `${part1}${newDate}`;
     })
     .replace(/(The Licensed Work is \(c\) )(\d{4})/, (full, part1) => `${part1}${new Date().getFullYear()}`);

@@ -16,7 +16,7 @@ describe('bsl', () => {
     const date = new Date();
     console.log(updatedLicense);
     expect(updatedLicense.indexOf('MyApp 1.1.0-beta.2') !== -1).toBeTruthy();
-    expect(updatedLicense.indexOf(`Change Date:          ${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`) !== -1).toBeTruthy();
+    expect(updatedLicense.indexOf(`Change Date:          ${date.getFullYear() + 4}-${date.getMonth() + 1}-${date.getDate()}`) !== -1).toBeTruthy();
     expect(updatedLicense.indexOf(`(c) ${date.getFullYear()} My Company`) !== -1).toBeTruthy();
   });
 

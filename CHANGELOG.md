@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/cbhq/semantic-release-license/compare/v1.0.1...v1.0.2) (2020-12-12)
+
+
+### Bug Fixes
+
+* bsl does not support non-zero-padded date ([047c727](https://github.com/cbhq/semantic-release-license/commit/047c72743303783b4c5414f68115bc127d25ac60))
+
 ## [1.0.1](https://github.com/cbhq/semantic-release-license/compare/v1.0.0...v1.0.1) (2020-12-12)
 
 

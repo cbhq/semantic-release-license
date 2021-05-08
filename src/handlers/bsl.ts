@@ -6,7 +6,6 @@ export function bsl(content: string, context: Context): string {
       `${part1}${context.nextRelease.version}`
     ))
     .replace(/(Change Date: +)(\d+-\d+-\d+)/, (full, part1) => {
-      console.log(full, part1);
       const today = new Date();
       const newDate = `${today.getFullYear() + 4}-${today.getMonth() + 1}-${today.getDate()}`;
       return `${part1}${newDate}`;

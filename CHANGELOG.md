@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/cbhq/semantic-release-license/compare/v1.0.2...v1.0.3) (2021-05-08)
+
+
+### Bug Fixes
+
+* remove unused dependencies ([60d0d0f](https://github.com/cbhq/semantic-release-license/commit/60d0d0f9f8e60ba9ef7526d7f003af520d39a311))
+
 ## [1.0.2](https://github.com/cbhq/semantic-release-license/compare/v1.0.1...v1.0.2) (2020-12-12)
 
 
